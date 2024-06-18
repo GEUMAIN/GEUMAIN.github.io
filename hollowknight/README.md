@@ -1,6 +1,6 @@
 ### 할로우나이트 사이트 만들어보기
 
-![Hollow Knight - Chrome 2024-06-18 13-22-46 (1).gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa97d740-13f6-4ddc-9939-b86bb2c976d6/f80b157f-8e2f-4d5e-9a26-e091ea4669f0/Hollow_Knight_-_Chrome_2024-06-18_13-22-46_(1).gif)
+![Hollow Knight - Chrome 2024-06-18 13-22-46 (1)](https://github.com/GEUMAIN/GEUMAIN.github.io/assets/128437656/92d8bf62-8a89-4abb-9aa0-d529c74b75d6)
 
 ### HTML
 
