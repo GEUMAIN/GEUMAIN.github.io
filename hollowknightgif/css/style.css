@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color : white;
+}
+ul li {
+    list-style: none;
+}
+
+#content_page {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 10%;
+    background-color: black;
+    
+}
+
+#header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+
+#nav {
+    position: fixed;
+    display: flex;
+    background-color: black;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+#nav .menu,.icon,.company_icon{
+    width: 100px;
+    float : left;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 80px 10px 0;
+}
+
+.icon {
+    line-height: 150px;
+}
+
+.company_icon {
+    line-height: 200px;
+}
+
+.submenu {
+    width: 180%;
+	background-color: rgb(19, 18, 18);
+	z-index: 1;
+    overflow: hidden;
+    display: block;
+    
+}
+.main-menu > .menu:hover {
+    text-shadow:0px 0px 20px white;
+}
+
+.submenu > li {
+    width: 100%;
+    transition: all 400ms;
+}
+
+.submenu > li > a{
+    font-size: 14px;
+}
+
+.submenu > li:hover{
+    background-color: rgb(235, 235, 235);
+}
+.submenu > li:hover > a{
+    color: black;
+}
+
+#nav>ul>li>ul {
+    height: 0;
+}
+
+
+#nav ul img{
+    width: 30%;
+    line-height: 10%;
+    padding: 0.1% 0;
+}
+
+#nav ul .icon {
+    width: 12%;
+    padding: 0 0.3%;
+}
+
+#nav ul .company_icon {
+    width: 20%;
+    padding: 0 0.3%;
+}
+#slider {
+    clear: both;
+    display: flex;
+}
+
+#slider2 {
+    clear: both;
+    display: flex;
+}
+
+#slider3 {
+    clear: both;
+    display: flex;
+}
+
+#slider4 {
+    clear: both;
+    display: flex;
+}
+#sliedr .imgs{
+    width: 100%;
+    height: 40%;
+    
+}
+
+#sliedr2 .imgs2{
+    width: 100%;
+    height: 5%;
+}
+
+#sliedr3 .imgs3{
+    width: 100%;
+    height: 5%;
+}
+
+#sliedr4 .imgs4{
+    width: 100%;
+    height: 5%;
+}
+
+#sliedr .imgs > img{
+    width: 100%;
+    height: 40%;
+}
+
+
+#sliedr2 .imgs2 > img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+#sliedr3 .imgs3 > img{
+    width: 100%;
+    height: 600px;
+}
+
+#sliedr4 .imgs4 > img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+#section {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    background-color: black;
+}
+#section2 {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to right, black, #ce1338);
+    box-shadow: inset 5px 5px 10px 5px rgb(13, 13, 13);
+}
+
+#section3 {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to left, black 55%, #700d21 80%);
+    box-shadow: inset 5px 5px 10px 5px rgb(13, 13, 13);
+}
+
+#section4 {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    background-image: linear-gradient(to right, rgb(242, 233, 223), #d79f6a, black 55%);
+    box-shadow: inset 5px 5px 10px 5px rgb(47, 45, 45);
+}
+
+#section .content {
+    height: 400px;
+}
+
+#section .content1 h1 {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 62%;
+    top: 22%;
+    padding: 10px;
+}
+
+#section2 .content2 h1 {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 64%;
+    top: 45%;
+    padding: 10px;
+}
+
+#section3 .content3 h1 {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 66%;
+    top: 69%;
+    padding: 10px;
+}
+
+#section4 .content4 h1 {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 64%;
+    top: 92%;
+    padding: 10px;
+}
+
+#section .content1 p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+#section2 .content2 p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 56%;
+    top: 48%;
+}
+
+#section3 .content3 p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 54%;
+    top: 72%;
+}
+
+#section4 .content4 p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 56%;
+    top: 95%;
+}
+
+#section2 .content2 p span {
+    font-family: "Noto Sans KR", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#section4 .content4 iframe {
+    position: absolute;
+    padding: 50px 10px;
+    right: 10%;
+}
+
+#section3 .content3 iframe {
+    position: absolute;
+    padding: 40px 10px;
+    left: 10%;
+}
+
+#section2 .content2 iframe {
+    position: absolute;
+    padding: 50px 10px;
+    right: 10%;
+}
+
+#section .content1 iframe {
+    position: absolute;
+    padding: 50px 10px;
+    left: 10%;
+}
+.moveTopBtn {
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    border: none;
+    width: 100px;
+    height: 50px;
+    z-index: 3;
+    top : 85%;
+    left : 90%;
+}
+
+.moveTopBtn img {
+    width: 100px;
+}
+
+.moveTopBtn:hover {
+    cursor: pointer;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    background-color : black;
+    color : white; 
+    height: 200px;
+    font-weight: bold;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#footer p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#footer nav a{
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    font-size: 25px;
+    position: relative;
+    left : -43%;
+}
