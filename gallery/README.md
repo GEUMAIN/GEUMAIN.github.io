@@ -1,6 +1,6 @@
 ### 그림 모음 갤러리 형식 사이트 만들어보기
 
-![Gallery.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa97d740-13f6-4ddc-9939-b86bb2c976d6/fa547b93-854f-4b68-a32a-2f3c4dbfe83a/Gallery.gif)
+![Gallery](https://github.com/GEUMAIN/GEUMAIN.github.io/assets/128437656/8e29e58c-d6cc-447a-8452-2f405e9555eb)
 
 ---
 
